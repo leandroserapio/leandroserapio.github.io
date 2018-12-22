@@ -8,7 +8,7 @@ body{
 }
 
 h2{
-	font-family: 'Montserrat Alternates', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h3{
@@ -35,10 +35,10 @@ header{
 	color: #8B00CC;
 }
 
-#boton_mensaje{
+.boton{
 	color: white;
     border-radius: 50px;
-    padding: 22px 37px;
+    padding: 8px 36px;
     font-size: 18px;
     background: linear-gradient(180deg, #AD00FF 0%, #001AFF 100%);
     box-shadow: 10px 11px 15px rgba(0, 0, 0, 0.25);
@@ -83,7 +83,7 @@ header{
 
 .about-me .container h2{
 	font-size: 28px;
-	font-weight: 600;
+	font-weight: ;
 	margin-bottom: 20px;
 }
 
@@ -92,8 +92,73 @@ header{
 	font-size: 18px;
 }
 
+.proyectos{
+	text-align: center;
+}
 
+.titulo-secciones-violeta{
+	display: inline-block;
+	position: relative;
+	color: #8B00CC;
+	margin: 90px auto 20px;
+	font-family: 'Montserrat';
+	font-weight: 900;
+	font-size: 32px;
+}
 
+.titulo-secciones-violeta::after,.titulo-secciones-violeta::before{
+		content:'';
+		position: absolute;
+		width: 1000px;
+		height: 2px;
+		background-color: #8B00CC;
+		top:0.7em;
+}
 
+.titulo-secciones-violeta::before{
+	left: -1010px;
+}
 
+.titulo-secciones-violeta::after{
+	right: -1010px;
+}
 
+.container.proyecto-1{
+	background-color: white;
+	height: auto;
+	margin: 50px auto;
+	padding: 65px;
+	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+	align-items: center;
+}
+
+.container.proyecto-1 h3{
+	margin-bottom: 40px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.descripcion{
+	width: 50%;
+}
+
+.descripcion p{
+	margin-bottom: 18px;
+}
+
+.descripcion figure{
+	width: 47%;
+	text-align: right;
+}
+
+.proyecto-boton{
+	margin-top: 36px;
+}
+
+.trabajos-diseño-cards{
+	background: blue;
+} 
