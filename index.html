@@ -1,138 +1,265 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Leandro Serapio</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800,900|Open+Sans|Varela+Round" rel="stylesheet">
-   <!-- <link rel="stylesheet" href="debug.css"> -->
-  </head>
-  <body>
-    <section class="hero is-medium">
-      <div class="hero-head">
-        <header class="navbar">
-          <div class="container">
-            <div class="navbar-left">
-              <a href="#" id="logo_ls" class="navbar-item">
-                <svg class="logo" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.25 56.89"><title></title><path d="M34.12,17.07h0a5.69,5.69,0,0,0,5.69,5.69H51.18A17.05,17.05,0,0,1,68.23,39.82h0a17,17,0,0,1-17.05,17H22.75A22.74,22.74,0,0,1,0,34.13V2.86A2.84,2.84,0,0,1,2.85,0H8.54a2.84,2.84,0,0,1,2.84,2.84V31.29A14.21,14.21,0,0,0,25.59,45.5H51.18a5.68,5.68,0,0,0,5.68-5.68h0a5.68,5.68,0,0,0-5.68-5.69H39.81A17.06,17.06,0,0,1,22.75,17.07h0A17.05,17.05,0,0,1,39.81,0H65.39a2.84,2.84,0,0,1,2.84,2.84V8.55a2.84,2.84,0,0,1-2.84,2.84H39.81A5.68,5.68,0,0,0,34.12,17.07Z"/></svg>
-                <h3>Leandro Serapio</h3>
-              </a>
-            </div>
-            <div class="navbar-end navbar-menu">
-              
-              <span class="navbar-item">
-                <a href="#contacto" class="boton">
-                <span>Dejar mensaje</span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </header>
-      </div>
-    </section>
-    <section class="hero">
-      <div class="hero-body">
-        <div class="container container-hero">
-          <h1 id="hero-description">
-            Hola! mi nombre es Leandro, soy diseñador, desarrollador web  y me apasiona el mundo de la tecnologia!
-          </h1>
-          <img src="images/pc.jpg" alt="imagen-responsive">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leandro Serapio</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800,900|Open+Sans|Varela+Round" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="debug.css"> -->    
+</head>
+<body>
+  
+  <!-- NAVBAR -->
+
+  <div class="section section-padding">
+    <div class="container">
+      <nav class="navbar" id="barra-nav" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand nav-logo">
+          <a href="#" id="logo_ls">
+          <svg class="logo" id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68.25 56.89"><title></title><path d="M34.12,17.07h0a5.69,5.69,0,0,0,5.69,5.69H51.18A17.05,17.05,0,0,1,68.23,39.82h0a17,17,0,0,1-17.05,17H22.75A22.74,22.74,0,0,1,0,34.13V2.86A2.84,2.84,0,0,1,2.85,0H8.54a2.84,2.84,0,0,1,2.84,2.84V31.29A14.21,14.21,0,0,0,25.59,45.5H51.18a5.68,5.68,0,0,0,5.68-5.68h0a5.68,5.68,0,0,0-5.68-5.69H39.81A17.06,17.06,0,0,1,22.75,17.07h0A17.05,17.05,0,0,1,39.81,0H65.39a2.84,2.84,0,0,1,2.84,2.84V8.55a2.84,2.84,0,0,1-2.84,2.84H39.81A5.68,5.68,0,0,0,34.12,17.07Z"/></svg>
+          <h3>Leandro Serapio</h3>
+          </a>
+        </div>
+        <div class="navbar-end">
+          <span class="navbar-item">
+          <a href="#contacto" class="boton">
+          <span>Dejar mensaje</span>
+          </a>
+          </span>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- FIN NAVBAR -->
+
+
+  
+  <!-- HERO -->
+
+  <section class="hero">
+      <div class="hero-body hero-padding">
+        <div class="container">
+            <div class="columns">
+                <div class="column titulo-hero">
+                  <h1 class="title is-3" id="hero-description">
+                  Hola! mi nombre es Leandro, soy diseñador, desarrollador web  y me apasiona el mundo de la tecnologia!
+                  </h1>
+                </div>
+                <div class="column">
+                  <figure class="image hero-img">
+                    <img src="images/pc.jpg" alt="imagen-responsive">
+                  </figure>
+                </div>
+              </div>
         </div>
       </div>
     </section>
+
+    <!-- FIN HERO -->
+
+
+    <!-- SOBRE MI -->
+
     <section class="about-me is-fullhd">
+      <div class="section section-padding">
       <div class= "container">
         <h2>Te cuento un poco sobre mi</h2>
         <p>Tengo 23 años, soy de Buenos Aires, Argentina, y este 2018 fue el año que decidi que mi carrera profesional seria en el mundo tecnologia, por eso inverti en mi educación y realice cursos de Desarrollo Web y Diseño UX/UI.</p>
         <br>
         <p>Considero que la base del crecimiento en cualquier ambito es no quedarse con lo que uno ya tiene y aprender constantemente.</p>
       </div>
+    </div>
     </section>
+  
+    <!-- FIN SOBRE MI -->
+
+  
+    <!-- PROYECTOS -->
     
     <section class="proyectos">
-    <h2 class="titulo-secciones-violeta">PROYECTOS</h2>
-    <div class="container proyectos-web">    
-      <div class="container proyecto-1">
-        <div class="descripcion">
-          <h3>Landing page 100% Responsive</h3>
-          <p>Web realizada en curso de Bootstrap 4 que contiene tooltips, botones, scrollspy, carrousel de imagenes y formularios.</p>
-          <span class="tag">
-            HTML5
-          </span>
-          <span class="tag">
-            CSS3
-          </span>
-          <span class="tag">
-            Responsive Design
-          </span>
-          <span class="tag">
-            Bootstrap 4
-          </span>
-          <div class="proyecto-boton">
-            <a href="https://leandroserapio.github.io/platzi_bootstrap/" target="_blank" class="boton">
-              <span>Ver Sitio</span>
-            </a> 
-          </div> 
-        </div>
-        <figure>
-          <img src="http://placeholder.pics/svg/500x300" alt="">
-        </figure>
-      </div>
-      <div class="container proyecto-1">
-        <div class="descripcion">
-          <h3>Maquetacion con lenguaje puro</h3>
-          <p>Este Portfolio web realizado en 2 cursos, tuvo su primer version en Desktop y luego fue adaptado a mobile utilizando CSS3</p>
-          <span class="tag">
-            HTML5
-          </span>
-          <span class="tag">
-            CSS3
-          </span>
-          <span class="tag">
-            Responsive Design
-          </span>
-          <span class="tag">
-            Javascript
-          </span>
-          <div class="proyecto-boton">
-            <a href="https://leandroserapio.github.io/cursodesarrolloweb/" target="_blank" class="boton">
-              <span>Ver Sitio</span>
-            </a> 
-          </div> 
-        </div>
-        <figure>
-          <img src="http://placeholder.pics/svg/500x300" alt="">
-        </figure>
-      </div>
-      <div class="container proyecto-1">
-          <div class="descripcion">
-              <h3>Prototipado de aplicación web </h3>
-              <p>Itinerarie es una plataforma que te ayuda a planear tus viajes de manera colaborativa pudiendo agregar ciudades, planes, hozpedajes, fotos, tener colaboradores y explorar otros viajes.</p>
+     <h2 class="titulo-secciones-violeta">PROYECTOS</h2>
+      <div class="section section-padding">
+        <div class="container proyectos-web">    
+          <div class="container proyecto-1">
+            <div class="descripcion">
+              <h3>Landing page 100% Responsive</h3>
+              <p>Web realizada en curso de Bootstrap 4 que contiene tooltips, botones, scrollspy, carrousel de imagenes y formularios.</p>
               <span class="tag">
-                UX/UI
+              HTML5
               </span>
               <span class="tag">
-                Adobe XD
+              CSS3
               </span>
               <span class="tag">
-                In visión
+              Responsive Design
+              </span>
+              <span class="tag">
+              Bootstrap 4
               </span>
               <div class="proyecto-boton">
-                <a href="https://invis.io/8QOB7UOZF4T" target="_blank" class="boton">
-                  <span>Ver Proyecto</span>
+                <a href="https://leandroserapio.github.io/platzi_bootstrap/" target="_blank" class="boton">
+                <span>Ver Sitio</span>
                 </a> 
               </div> 
             </div>
             <figure>
-              <img src="http://placeholder.pics/svg/500x300" alt="">
+            <img src="http://placeholder.pics/svg/500x300" alt="">
             </figure>
+          </div>
+          <div class="container proyecto-1">
+            <div class="descripcion">
+              <h3>Maquetacion con lenguaje puro</h3>
+              <p>Este Portfolio web realizado en 2 cursos, tuvo su primer version en Desktop y luego fue adaptado a mobile utilizando CSS3</p>
+              <span class="tag">
+              HTML5
+              </span>
+              <span class="tag">
+              CSS3
+              </span>
+              <span class="tag">
+              Responsive Design
+              </span>
+              <span class="tag">
+              Javascript
+              </span>
+              <div class="proyecto-boton">
+                <a href="https://leandroserapio.github.io/cursodesarrolloweb/" target="_blank" class="boton">
+                <span>Ver Sitio</span>
+                </a> 
+              </div> 
+            </div>
+            <figure>
+            <img src="http://placeholder.pics/svg/500x300" alt="">
+            </figure>
+          </div>
+          <div class="container proyecto-1">
+            <div class="descripcion">
+              <h3>Prototipado de aplicación web </h3>
+              <p>Itinerarie es una plataforma que te ayuda a planear tus viajes de manera colaborativa pudiendo agregar ciudades, planes, hozpedajes, fotos, tener colaboradores y explorar otros viajes.</p>
+              <span class="tag">
+              UX/UI
+              </span>
+              <span class="tag">
+              Adobe XD
+              </span>
+              <span class="tag">
+              In visión
+              </span>
+              <div class="proyecto-boton">
+                <a href="https://invis.io/8QOB7UOZF4T" target="_blank" class="boton">
+                <span>Ver Proyecto</span>
+                </a> 
+              </div> 
+            </div>
+            <figure>
+            <img src="http://placeholder.pics/svg/500x300" alt="">
+            </figure>
+          </div>
+        </div>
       </div>
-    </div>
     </section>
-  
+
+    <!-- FIN PROYECTOS -->
+
+    <!-- PORTFOLIO -->
+
+    <section class="portfolio">
+      <h2 class="titulo-secciones-violeta">TRABAJOS</h2>
+      <div class="section section-padding">
+        <div class="container">
+          <div class="columns">
+            <div class="column center portfolio-cards">
+              <a id="button">
+                <div class="notification">
+                  <figure class="image">
+                    <img src="http://placeholder.pics/svg/500x300" alt="">
+                  </figure>
+                  <h3 class="title is-4">Catalogo de productos</h3>
+                </div>
+              </a>
+            </div>
+            <div class="column center portfolio-cards">
+              <div class="notification">  
+                <figure class="image">
+                <img src="http://placeholder.pics/svg/500x300" alt="">
+                </figure>
+                <h3 class="title is-4">Flayers publucitarios</h3>
+              </div>
+            </div>
+            <div class="column center portfolio-cards">
+              <div class="notification">  
+                <figure class="image">
+                  <img src="http://placeholder.pics/svg/500x300" alt="">
+                </figure>
+                <h3 class="title is-4 ">Fotografia de Producto</h3>
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column center portfolio-cards">
+              <a id="button">
+                <div class="notification">
+                  <figure class="image">
+                  <img src="http://placeholder.pics/svg/500x300" alt="">
+                  </figure>
+                  <h3 class="title is-4">Catalogo de productos</h3>
+                </div>
+              </a>
+            </div>
+            <div class="column center portfolio-cards">
+              <div class="notification">  
+                <figure class="image">
+                <img src="http://placeholder.pics/svg/500x300" alt="">
+                  </figure>
+                <h3 class="title is-4">Flayers publucitarios</h3>
+              </div>
+            </div>
+            <div class="column center portfolio-cards">
+                <div class="notification">  
+                  <figure class="image">
+                    <img src="http://placeholder.pics/svg/500x300" alt="">
+                  </figure>
+                  <h3 class="title is-4 ">Fotografia de Producto + edicion</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FIN PORTFOLIO -->
+    
+
+    <!-- MODALS -->
+
+    <div class="modal" id="page-modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">          
+        <p class="image is-4by3">
+          <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+        </p>
+        <div class="descripcion-modal">
+          <h3 class="title is-4">Catalogo para productos</h3>
+          <p>
+            Hecho para venta mayorista, contiene mas de 500 modelos de calzado. El trabajo realizado fue el diseño completo del catalogo, fotografia y edicion de la mayoria de los calzados.
+          </p>
+          <figure>
+            <img class="image is-32x32" src="images/id.png" alt="Adobe Indesign">
+            <img class="image is-32x32" src="images/ai.png" alt="Adobe Illustrator">
+            <img class="image is-32x32" src="images/ps.png" alt="Adobe Photoshop">
+          </figure>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+ 
+    <!-- FIN MODALS -->
+
+    <script src="interacciones.js"></script>
   </body>
 </html>
