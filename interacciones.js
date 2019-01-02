@@ -1,12 +1,10 @@
-var button = document.getElementById("button");
-var modal = document.getElementById("page-modal");
+var button = document.getElementById('button');
+var modal = document.getElementById('page-modal');
 var close = document.getElementsByClassName('modal-close')[0];
-
 
 button.onclick = function(){
     modal.style.display = "flex";
 }
-
 
 close.onclick = function(){
     modal.style.display = "none";

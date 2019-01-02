@@ -116,7 +116,7 @@ header{
 	display: inline-block;
 	position: relative;
 	color: #8B00CC;
-	margin: 30px auto 0px;
+	margin: 45px auto 0px;
 	font-family: 'Montserrat';
 	font-weight: 900;
 	font-size: 32px;
@@ -141,7 +141,12 @@ header{
 .column.proyecto-img{
 	display: flex;
     justify-content: center;
-    align-items: center;
+	align-items: center;
+}
+
+.proyecto-img img{
+	width: 85%;
+	float: right;
 }
 
 .container.proyecto-1 h3{
@@ -183,7 +188,7 @@ header{
     text-align: center;
 }
 .modal-content{
-	border-radius: 20px 20px 0 0;
+	border-radius: 10px;
 }
 
 .descripcion-modal{
@@ -219,10 +224,12 @@ header{
 
 .modal-content.contenido-modal{
 	max-height: none;
-	max-width: 90%;
+	max-width: 95%;
 	width: auto;
 	overflow: hidden;
+	margin: 0;
 }
+
 /**
 .modalDialog {
 	position: fixed;
@@ -283,23 +290,43 @@ transition: opacity 400ms ease-in;
 	}
 	.nav-logo h3{
 		display: none;	
+	}	
+	.title.is-4.titulo-modal{
+		font-size: 1.2em;
+	}
+	.descripcion-modal p{
+		font-size: 0.8em;
+	}
+	.proyecto-img img{
+		float: none;
+	}
+	#hero-description{
+		font-size: 1.5em;
 	}
 }
-
-
 
 @media screen and (min-width: 500px){
+	.descripcion-modal p{
+		font-size: 1em;
+	}
+	.title.is-4.titulo-modal{
+		font-size: 2em;
+	}
 	.nav-logo h3{
-		display: initial;	
+		display: inline-block;	
+	}
+	#hero-description{
+		font-size: 2rem;
 	}
 }
-
-
 
 @media screen and (min-width: 768px){
 	
 	.container-boton{
 		margin-top: 35px;
 		text-align: inherit;
+	}
+	.proyecto-img img{
+		float: right;
 	}
 }
