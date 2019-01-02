@@ -26,7 +26,7 @@
         </div>
         <div class="navbar-end">
           <span class="navbar-item">
-          <a href="#contacto" class="boton">
+          <a href="#contacto" class="nav-boton">
           <span>Dejar mensaje</span>
           </a>
           </span>
@@ -81,14 +81,14 @@
   
     <!-- PROYECTOS -->
     
-    <section class="proyectos">
+    <section class="proyectos section">
      <h2 class="titulo-secciones-violeta">PROYECTOS</h2>
-      <div class="section section-padding">
-        <div class="container proyectos-web">    
-          <div class="container proyecto-1">
-            <div class="descripcion">
-              <h3>Landing page 100% Responsive</h3>
-              <p>Web realizada en curso de Bootstrap 4 que contiene tooltips, botones, scrollspy, carrousel de imagenes y formularios.</p>
+    <div class="container proyecto-1">
+      <div class="columns">
+        <div class="column is-half">
+            <h3>Landing page 100% Responsive</h3>
+            <p>Web realizada en curso de Bootstrap 4 que contiene tooltips, botones, scrollspy, carrousel de imagenes y formularios.</p>
+            <div class="tags">
               <span class="tag">
               HTML5
               </span>
@@ -101,67 +101,85 @@
               <span class="tag">
               Bootstrap 4
               </span>
-              <div class="proyecto-boton">
-                <a href="https://leandroserapio.github.io/platzi_bootstrap/" target="_blank" class="boton">
-                <span>Ver Sitio</span>
-                </a> 
-              </div> 
             </div>
-            <figure>
+        </div>
+        <div class="column proyecto-img">
+          <figure>
             <img src="http://placeholder.pics/svg/500x300" alt="">
-            </figure>
-          </div>
-          <div class="container proyecto-1">
-            <div class="descripcion">
+          </figure>
+        </div>
+      </div>
+      <div class="container-boton">
+        <a href="https://invis.io/8QOB7UOZF4T" target="_blank" class="boton">
+          <span>Ver Sitio</span>
+        </a> 
+      </div> 
+    </div>
+
+    <div class="container proyecto-1">
+        <div class="columns">
+          <div class="column is-half">
               <h3>Maquetacion con lenguaje puro</h3>
               <p>Este Portfolio web realizado en 2 cursos, tuvo su primer version en Desktop y luego fue adaptado a mobile utilizando CSS3</p>
-              <span class="tag">
-              HTML5
-              </span>
-              <span class="tag">
-              CSS3
-              </span>
-              <span class="tag">
-              Responsive Design
-              </span>
-              <span class="tag">
-              Javascript
-              </span>
-              <div class="proyecto-boton">
-                <a href="https://leandroserapio.github.io/cursodesarrolloweb/" target="_blank" class="boton">
-                <span>Ver Sitio</span>
-                </a> 
-              </div> 
-            </div>
-            <figure>
-            <img src="http://placeholder.pics/svg/500x300" alt="">
-            </figure>
+              <div class="tags">
+                <span class="tag">
+                HTML5
+                </span>
+                <span class="tag">
+                CSS3
+                </span>
+                <span class="tag">
+                Responsive Design
+                </span>
+                <span class="tag">
+                Javascript
+                </span>
+              </div>
           </div>
-          <div class="container proyecto-1">
-            <div class="descripcion">
-              <h3>Prototipado de aplicación web </h3>
-              <p>Itinerarie es una plataforma que te ayuda a planear tus viajes de manera colaborativa pudiendo agregar ciudades, planes, hozpedajes, fotos, tener colaboradores y explorar otros viajes.</p>
-              <span class="tag">
-              UX/UI
-              </span>
-              <span class="tag">
-              Adobe XD
-              </span>
-              <span class="tag">
-              In visión
-              </span>
-              <div class="proyecto-boton">
-                <a href="https://invis.io/8QOB7UOZF4T" target="_blank" class="boton">
-                <span>Ver Proyecto</span>
-                </a> 
-              </div> 
-            </div>
+          <div class="column proyecto-img">
             <figure>
-            <img src="http://placeholder.pics/svg/500x300" alt="">
+              <img src="http://placeholder.pics/svg/500x300" alt="">
             </figure>
           </div>
         </div>
+        <div class="container-boton">
+          <a href="https://invis.io/8QOB7UOZF4T" target="_blank" class="boton">
+            <span>Ver sitio</span>
+          </a> 
+        </div> 
       </div>
+
+
+      <div class="container proyecto-1">
+          <div class="columns">
+            <div class="column is-half">
+              <h3>Prototipado de aplicación web </h3>
+              <p>Itinerarie es una plataforma que te ayuda a planear tus viajes de manera colaborativa pudiendo agregar ciudades, planes, hozpedajes, fotos, tener colaboradores y explorar otros viajes.</p>
+              <div class="tags">
+                <span class="tag">
+                  UX/UI
+                </span>
+                <span class="tag">
+                  Adobe XD
+                </span>
+                <span class="tag">
+                  In visión
+                </span>
+              </div>
+              </div>
+            <div class="column proyecto-img">
+              <figure>
+                <img src="http://placeholder.pics/svg/500x300" alt="">
+              </figure>
+            </div>
+          </div>
+          <div class="container-boton">
+            <a href="https://invis.io/8QOB7UOZF4T" target="_blank" class="boton">
+              <span>Ver Proyecto</span>
+            </a> 
+          </div> 
+        </div>
+
     </section>
 
     <!-- FIN PROYECTOS -->
@@ -237,7 +255,9 @@
 
     <!-- MODALS -->
 
-    <div class="modal" id="page-modal">
+    
+
+<!--    <div class="modal" id="page-modal">
       <div class="modal-background"></div>
       <div class="modal-content">          
         <p class="image is-4by3">
@@ -257,7 +277,45 @@
       </div>
       <button class="modal-close is-large" aria-label="close"></button>
     </div>
- 
+ -->
+
+
+<div class="modal" id="page-modal">
+<div class="modal-background"></div>
+  <div class="modal-content contenido-modal">      
+    <div class="section">
+      <div class="container">
+        <div class="columns is-gapless">
+          <div class="column is-three-fifths">
+            <p class="image">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+            </p>
+          </div>
+          <div class="column">
+            <div class="descripcion-modal">
+            <h3 class="title is-4">Catalogo para productos</h3>
+            <p>
+            Hecho para venta mayorista, contiene mas de 500 modelos de calzado. El trabajo realizado fue el diseño completo del catalogo, fotografia y edicion de la mayoria de los calzados.
+            </p>
+            <figure>
+            <img class="image is-32x32" src="images/id.png" alt="Adobe Indesign">
+            <img class="image is-32x32" src="images/ai.png" alt="Adobe Illustrator">
+            <img class="image is-32x32" src="images/ps.png" alt="Adobe Photoshop">
+            </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
+
+
+
+
+
     <!-- FIN MODALS -->
 
     <script src="interacciones.js"></script>
