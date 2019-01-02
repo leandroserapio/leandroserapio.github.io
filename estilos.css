@@ -227,6 +227,14 @@ section{
 	margin-top: 10px;
 }
 
+.content ul{
+    margin: 0 !important;
+}
+
+.lista-skills li{
+	list-style: none;
+}
+
 .notification.card-port{
 	box-shadow: 0 0 15px #98989829;
 	background: white;
