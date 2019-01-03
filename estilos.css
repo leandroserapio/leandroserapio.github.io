@@ -52,6 +52,14 @@ section{
 	height: 25px;
 }
 
+#UX-UI{
+	fill: #8B00CC;
+}
+
+#front-end{
+	fill: #8B00CC; 
+}
+
 #logo_ls{
 	height: 100%;
 	display: flex;
@@ -233,6 +241,19 @@ section{
 
 .lista-skills li{
 	list-style: none;
+}
+
+.column.skill-column{
+	padding: 30px;
+}
+
+.is-skill-icon{
+	margin-top: 15px;
+}
+
+.title.is-6.titulo-skills{
+	margin: 25px auto 10px;
+	color: #7500AB;
 }
 
 .notification.card-port{
