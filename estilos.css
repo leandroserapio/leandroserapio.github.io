@@ -303,6 +303,13 @@ section{
 	color: #8B00CC;
 }
 
+.boton-contacto{
+	border: 1px solid #FFFFFF;
+	padding: 15px;
+	border-radius: 50px;
+}
+
+
 .div-logo-footer svg{
 	width: 20px;
 	margin-right: 5px;
@@ -310,6 +317,10 @@ section{
 
 .column.is-half.footer-redes{
 	display: flex;
+}
+
+.title.is-5.has-text-white.titulo-contacto{
+	margin-bottom: 30px;
 }
 
 .column.is-half.footer-redes a{
@@ -360,6 +371,10 @@ section{
 	#hero-description{
 		font-size: 1.5em;
 		margin-bottom: 0.5rem;
+	}
+
+	.title.is-3.has-text-white.mail{
+		font-size: 1rem;
 	}
 	
 	.column.is-half.footer-redes{
