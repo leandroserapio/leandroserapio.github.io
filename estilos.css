@@ -103,7 +103,7 @@ section{
 }
 
 .image.hero-img img {
-	width: 85%;
+	width: 100%;
 	margin: 15px auto;
 }
 
@@ -153,10 +153,6 @@ section{
 	align-items: center;
 }
 
-.proyecto-1 p{
-	width: 60%;
-}
-
 .tags{
 	margin-top: 20px;	
 }
@@ -168,13 +164,13 @@ section{
 }
 
 .proyecto-img img{
-	width: 85%;
+	width: 100%;
 	float: right;
 }
 
 .container.proyecto-1 h3{
-	margin-bottom: 40px;
-	font-size: 36px;
+	margin-bottom: 25px;
+	font-size: 2em;
 	font-weight: bold;
 }
 
@@ -199,6 +195,11 @@ section{
 	background: blue;
 } 
 
+
+.tags:not(:last-child){
+	margin-bottom: 2rem;		
+}
+
 .center{
 	display: flex;
 	align-items: center;
@@ -208,7 +209,6 @@ section{
 
 .container-boton{
 	margin-top: 35px;
-    text-align: center;
 }
 .modal-content{
 	border-radius: 10px;
@@ -337,9 +337,34 @@ section{
 	color: #7500AB;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 200px){
+	.contenido-hero{
+		text-align: center;
+	}
+
+	.contenido-hero p{
+		margin: auto;
+	}
+
+	.column.titulo-hero{
+		justify-content: center;
+	}
+	
 	.boton{
-		padding: 18px 10%;
+		padding: 10px 55px;
 	}
 	.nav-logo h3{
 		display: none;	
@@ -350,7 +375,15 @@ section{
 
 	.container.proyecto-1{
 		text-align: center;
+		padding: 25px;
 	}
+
+	.container.proyecto-1 p{
+		width: 75%;
+		margin: auto;
+	}
+
+
 	.proyecto-1 p{
 		width: 100%;
 	}
@@ -385,9 +418,60 @@ section{
 	.div-logo-footer{
 		justify-content: center;
 	}
+
+	.container-boton{
+		display: none;
+	}
+	
+	.container-boton-mobile{
+		margin: 15px 0;
+	}
+
+	.container.proyecto-1 h3{
+		font-size: 1.5em;
+	}
+
+	.proyecto-1 p{
+		font-size: 1em;
+	}
 }
 
-@media screen and (min-width: 512px){
+
+@media screen and (min-width: 500px){
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 769px){
+	.contenido-hero{
+		text-align: left;
+	}
+
+	.container.proyecto-1 p{
+		width: 100%;
+		margin: unset;
+	}
+
+	.contenido-hero p{
+		margin: unset;
+	}
+	
+	.column.titulo-hero{
+		justify-content: left;
+	}
+	
+	.container.proyecto-1{
+		padding: 30px 50px;
+	}
+
 	.descripcion-modal p{
 		font-size: 1em;
 	}
@@ -407,14 +491,11 @@ section{
 	.tags.proyecto-tags{
 		justify-content: left;
 	}
-	
-}
 
-@media screen and (min-width: 768px){
-	
 	.container-boton{
 		margin-top: 35px;
 		text-align: inherit;
+		display: block;		
 	}
 	.proyecto-img img{
 		float: right;
@@ -429,32 +510,19 @@ section{
 		display: flex;
 		justify-content: flex-end;
 	}
+	.container-boton-mobile{
+		display: none;
+	}
+	.container.proyecto-1 h3{
+		font-size: 2em;
+	}
+	.container.proyecto-1 p{
+		font-size: 28px;
+	}
+
 }
 
 @media screen and (min-width: 980px){
 
-	.proyecto-1 p{
-		width: 60%;
-	}
 
 }
-
-
-
-@import url(https://fonts.googleapis.com/css?family=Dosis:300,400);
-
-a.effect-shine:hover {
-	-webkit-mask-image: linear-gradient(-75deg, rgba(64, 0, 143, 0.83) 30%, rgba(109, 0, 128, 0.544) 50%, rgba(121, 0, 143, 0.6) 70%);
-	-webkit-mask-size: 200%;
-	animation: shine 2s infinite;
-  }
-  
-  @-webkit-keyframes shine {
-	from {
-	  -webkit-mask-position: 150%;
-	}
-	
-	to {
-	  -webkit-mask-position: -50%;
-	}
-  }
